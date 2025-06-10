@@ -1,14 +1,14 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'Leleo的个人主页🎉',
-    description: '欢迎来到Leleo的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
+    title: '浮生幻梦的个人博客🎉',
+    description: '欢迎来到幻梦の妙妙屋！',
+    keywords: '幻梦,浮生幻梦',
     icon: '/favicon.ico'   //网页图标，支持外链
   },
 
   avatar: "/img/avatar.jpg", // 头像
-  welcometitle: "Hi, I'm Leleo", // 标题
+  welcometitle: "Somnium", // 标题
 
   // 颜色配置
   color: {
@@ -20,24 +20,24 @@ const config = {
   blur: 5, // 毛玻璃模糊效果
 
   // 我的标签
-  tags : ['乐观开朗','温柔体贴','随和亲切','冷静沉着','才思敏捷','风趣幽默','刚正不阿','善解人意'],
+  tags : ['花谱,二刺螈,不是二次元,arknights,计算机,非著名东方哲学家思想家'],
 
   // 默认背景壁纸
   background: {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"海洋女孩", 
-        "preview":"/img/wallpaper/static/海洋女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"0001", 
+        "preview":"https://alist.cn-nb1.rains3.com/Private/static/0001/image.webp",
+        "url":"https://alist.cn-nb1.rains3.com/Private/static/0001/image.webp",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
       "type":"pic",
       "datainfo":{
         "title":"0001", 
-        "preview":"/img/wallpaper/static-mobile/0001/image-pre.webp",
-        "url":"/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "preview":"/img/wallpaper/static-mobile/不可解/image.webp",
+        "url":"/img/wallpaper/static-mobile/不可解/image.webp"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
@@ -76,10 +76,12 @@ const config = {
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
   wallpaper:{
-    pic:[
-      {"title":"海洋女孩","preview":"/img/wallpaper/static/海洋女孩/image-pre.webp","url":"/img/wallpaper/static/海洋女孩/image.png"},
-      {"title":"书房夜晚","preview":"/img/wallpaper/static/书房夜晚/image-pre.webp","url":"/img/wallpaper/static/书房夜晚/image.png"},
-      {"title":"安逸舒适","preview":"/img/wallpaper/static/安逸舒适/image-pre.webp","url":"/img/wallpaper/static/安逸舒适/image.png"},
+    pic:[ 
+      {"title":"0001","preview":"/img/wallpaper/static/糸/image.webp","url":"/img/wallpaper/static/糸/image.webp"},
+      {"title":"0002","preview":"/img/wallpaper/static/海/image.webp","url":"/img/wallpaper/static/海/image.webp"},
+      {"title":"0003","preview":"/img/wallpaper/static/不可解狂/image.webp","url":"/img/wallpaper/static/不可解狂/image.webp"},
+      {"title":"0004","preview":"/img/wallpaper/static/书房夜晚/image-pre.webp","url":"/img/wallpaper/satic/书房夜晚/image.png"},
+      {"title":"0005","preview":"/img/wallpaper/static/安逸舒适/image-pre.webp","url":"/img/wallpaper/static/安逸舒适/image.png"},
       {"title":"jswcMaMj","preview":"https://file.uhsea.com/2503/76a4f03e8654d6e66bbbc7e8149c2fe33M.png","url":"https://file.uhsea.com/2503/5b8a20a5f2b269659911c9485d0d0c3f0F.png"},
       {"title":"pgtTqoqq","preview":"https://file.uhsea.com/2503/caeae6b4fc1aba41bff4ad4ec59d6d8aA5.png","url":"https://file.uhsea.com/2503/45aa0a5a31a0ae95f7cc660e3ab4148eUT.png"},
       {"title":"cvKMKhue","preview":"https://file.uhsea.com/2503/7a693bf725b501e0907ce40f18d2edc49P.png","url":"https://file.uhsea.com/2503/55e7191130d160a8e4421497308ffb67DT.png"},
@@ -91,42 +93,42 @@ const config = {
       
     ],
     picMobile:[
-      {"title":"0001","preview":"/img/wallpaper/static-mobile/0001/image-pre.webp","url":"/img/wallpaper/static-mobile/0001/image.png"},
-      {"title":"0002","preview":"/img/wallpaper/static-mobile/0002/image-pre.webp","url":"/img/wallpaper/static-mobile/0002/image.png"},
-      {"title":"0003","preview":"/img/wallpaper/static-mobile/0003/image-pre.webp","url":"/img/wallpaper/static-mobile/0003/image.png"},
-      {"title":"0004","preview":"/img/wallpaper/static-mobile/0004/image-pre.webp","url":"/img/wallpaper/static-mobile/0004/image.png"},
+      {"title":"0001","preview":"/img/wallpaper/static-mobile/0001/image.webp","url":"/img/wallpaper/static-mobile/0001/image.png"},
+      {"title":"0002","preview":"/img/wallpaper/static-mobile/0002/image.webp","url":"/img/wallpaper/static-mobile/0002/image.png"},
+      {"title":"0003","preview":"/img/wallpaper/static-mobile/0003/image.webp","url":"/img/wallpaper/static-mobile/0003/image.png"},
+      {"title":"0004","preview":"/img/wallpaper/static-mobile/0004/image.webp","url":"/img/wallpaper/static-mobile/0004/image.png"},
       {"title":"DfNHPPcc","preview":"https://file.uhsea.com/2503/e3510f4d0286e37b828f74494230f0efM2.png","url":"https://file.uhsea.com/2503/97b50adb3d4cd6f1a4132f6d3e8c98483T.png"},
       {"title":"WIOlrGSy","preview":"https://file.uhsea.com/2503/99162abfe07e18cfe6182ca3458561ef3A.png","url":"https://file.uhsea.com/2503/609532b992163117db9b341dde87b78f3C.png"},
       {"title":"cZZwzhis","preview":"https://file.uhsea.com/2503/cf558fa1989c07726778c60be47b9928K8.png","url":"https://file.uhsea.com/2503/e27b91f1604f73d0444c807024ef7c9fI3.png"},
       {"title":"aANKZHPX","preview":"https://file.uhsea.com/2503/0aa1cb875c8c7c20afd1aa72530294350K.png","url":"https://file.uhsea.com/2503/b09b65e20e176cb0d22dbc319981b5b45L.png"},
     ],
     video:[
-      {
+     {
         "title":"尼尔：机械纪元 团队",
-        "preview":"/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team-pre.webm",
-        "url":"/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team.webm"
-      },
-      {
-        "title":"向往航天的女孩",
-        "preview":"/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane-pre.webm",
-        "url":"/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane.webm"
-      },
-    ],
-    videoMobile:[
-      {
-        "title":"幻觉镇-gaako_illust",
-        "preview":"/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town-pre.mp4",
-        "url":"/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town.mp4"
-      },
-      {
-        "title":"chuva",
-        "preview":"/img/wallpaper/dynamic-mobile/chuva/chuva-pre.mp4",
-        "url":"/img/wallpaper/dynamic-mobile/chuva/chuva.mp4"
-      },
-      {
-        "title":"Doodle-小猫女仆降临",
-        "preview":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
-        "url":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
+      "preview":"/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team-pre.webm",
+      "url":"/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team.webm"
+    },
+    {
+      "title":"向往航天的女孩",
+      "preview":"/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane-pre.webm",
+      "url":"/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane.webm"
+    },
+  ],
+  videoMobile:[
+    {
+      "title":"幻觉镇-gaako_illust",
+      "preview":"/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town-pre.mp4",
+      "url":"/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town.mp4"
+    },
+    {
+      "title":"chuva",
+      "preview":"/img/wallpaper/dynamic-mobile/chuva/chuva-pre.mp4",
+      "url":"/img/wallpaper/dynamic-mobile/chuva/chuva.mp4"
+    },
+    {
+      "title":"Doodle-小猫女仆降临",
+     "preview":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
+      "url":"/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
       },
     ],
   },
