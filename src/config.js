@@ -28,8 +28,8 @@ const config = {
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
         "title":"0001", 
-        "preview":"https://alist.cn-nb1.rains3.com/Private/static/0001/image.webp",
-        "url":"https://alist.cn-nb1.rains3.com/Private/static/0001/image.webp",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "preview":"http://pan.xwx42.top/d/Private/static/0001/image.webp?sign=krxlBGIioUpqG-6EjiYUIUbDPKDr_moUiKmbGg-MO7c=:0",
+        "url":"http://pan.xwx42.top/d/Private/static/0001/image.webp?sign=krxlBGIioUpqG-6EjiYUIUbDPKDr_moUiKmbGg-MO7c=:0",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
